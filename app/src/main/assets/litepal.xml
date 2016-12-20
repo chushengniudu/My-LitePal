@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--dbname 是数据库的名字-->
+    <dbname value="demo"></dbname>
+    <!--version 是数据库的版本号-->
+    <version value="6"></version>
+
+    <!--list 是数据库的映射模型（数据库表）-->
+    <list>
+        <!--mapping 是数据库的映射模型的地址（数据库表结构）-->
+        <mapping class="com.liuzheng.admin.my_litepal.News"></mapping>
+        <mapping class="com.liuzheng.admin.my_litepal.Comment"></mapping>
+    </list>
+</litepal>
